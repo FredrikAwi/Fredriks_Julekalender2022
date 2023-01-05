@@ -1,0 +1,125 @@
+#overskrift {
+
+    background-color: lightblue;
+
+    color: white;
+
+    padding: 40;
+
+    text-align: center;
+
+    font-family: "Ink Free";
+
+    font-size: 100px;
+
+ 
+
+}
+
+
+
+#nisse {
+
+    position: relative;
+
+    animation-name: frem-og-tilbake;
+
+    animation-duration: 16s;
+
+    animation-iteration-count: infinite;
+
+    animation-direction: left;
+
+}
+
+@keyframes frem-og-tilbake {
+
+    0% {
+
+        left: -35%;
+
+    }
+
+    100% {
+
+        left: 100%;
+
+    }
+
+}
+
+
+
+body {
+
+    background-image: url("https://wallpaperaccess.com/full/1466431.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hatch {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 144px;
+    z-index: 1;
+
+}
+
+div:hover {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    color: white;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 155px;
+}
+
+#hatch24 {
+    width: 220px;
+    height: 483px;
+    position: absolute;
+    color: white;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 150px;
+    z-index: 1;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jumpscare {position: relative; top: -1800px; left: -1400px; width: 4000px; height: 2900px; cursor: pointer; visibility: hidden; z-index: 3;}
+
+#input {
+    position: relative; top: 0px; 
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    color: white;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 150px;
+    z-index: 200;
+
+}
+
+#input:hover {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    color: white;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 155px;
+}
+
+
